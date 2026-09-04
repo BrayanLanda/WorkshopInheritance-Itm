@@ -23,12 +23,12 @@ public class Circle : GeometricFigure
 
     public override double GetArea()
     {
-        return Math.PI * _r * _r;
+        return Math.PI * R * R;
     }
 
     public override double GetPerimeter()
     {
-        return 2 * Math.PI * _r;
+        return 2 * Math.PI * R;
     }
 
     private bool ValidateR(double r) => r > 0;

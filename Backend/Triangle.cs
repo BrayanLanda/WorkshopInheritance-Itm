@@ -27,7 +27,7 @@ public class Triangle : Rectangle
             _h = value;
         }
     }
-    public override double GetArea() => (A * H) / 2;
+    public override double GetArea() => (B * H) / 2;
     public override double GetPerimeter() => A + B + C;
     private bool ValidateC(double c) => c > 0;
     private bool ValidateH(double h) => h > 0;
